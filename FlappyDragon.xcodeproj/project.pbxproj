@@ -8,24 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		DDB644EC252BE38D006E5111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB644EB252BE38D006E5111 /* AppDelegate.swift */; };
-		DDB644EE252BE38D006E5111 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDB644ED252BE38D006E5111 /* GameScene.sks */; };
-		DDB644F0252BE38D006E5111 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDB644EF252BE38D006E5111 /* Actions.sks */; };
 		DDB644F2252BE38D006E5111 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB644F1252BE38D006E5111 /* GameScene.swift */; };
 		DDB644F4252BE38E006E5111 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB644F3252BE38E006E5111 /* GameViewController.swift */; };
 		DDB644F7252BE38E006E5111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB644F5252BE38E006E5111 /* Main.storyboard */; };
 		DDB644F9252BE38E006E5111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB644F8252BE38E006E5111 /* Assets.xcassets */; };
+		DDB64503252BE444006E5111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB64502252BE444006E5111 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDB644E8252BE38D006E5111 /* FlappyDragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyDragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB644EB252BE38D006E5111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDB644ED252BE38D006E5111 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DDB644EF252BE38D006E5111 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		DDB644F1252BE38D006E5111 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DDB644F3252BE38E006E5111 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DDB644F6252BE38E006E5111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDB644F8252BE38E006E5111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB644FA252BE38E006E5111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB64502252BE444006E5111 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB6450F252BEC98006E5111 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		DDB64510252BEC98006E5111 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		DDB64511252BEC98006E5111 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +60,25 @@
 			isa = PBXGroup;
 			children = (
 				DDB644EB252BE38D006E5111 /* AppDelegate.swift */,
-				DDB644ED252BE38D006E5111 /* GameScene.sks */,
-				DDB644EF252BE38D006E5111 /* Actions.sks */,
+				DDB6450E252BEC98006E5111 /* sounds */,
 				DDB644F1252BE38D006E5111 /* GameScene.swift */,
 				DDB644F3252BE38E006E5111 /* GameViewController.swift */,
 				DDB644F5252BE38E006E5111 /* Main.storyboard */,
 				DDB644F8252BE38E006E5111 /* Assets.xcassets */,
 				DDB644FA252BE38E006E5111 /* Info.plist */,
+				DDB64502252BE444006E5111 /* LaunchScreen.storyboard */,
 			);
 			path = FlappyDragon;
+			sourceTree = "<group>";
+		};
+		DDB6450E252BEC98006E5111 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6450F252BEC98006E5111 /* hit.mp3 */,
+				DDB64510252BEC98006E5111 /* music.m4a */,
+				DDB64511252BEC98006E5111 /* score.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB644F7252BE38E006E5111 /* Main.storyboard in Resources */,
-				DDB644EE252BE38D006E5111 /* GameScene.sks in Resources */,
 				DDB644F9252BE38E006E5111 /* Assets.xcassets in Resources */,
-				DDB644F0252BE38D006E5111 /* Actions.sks in Resources */,
+				DDB64503252BE444006E5111 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
