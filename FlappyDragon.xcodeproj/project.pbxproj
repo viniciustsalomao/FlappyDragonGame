@@ -13,6 +13,9 @@
 		DDB644F7252BE38E006E5111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB644F5252BE38E006E5111 /* Main.storyboard */; };
 		DDB644F9252BE38E006E5111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB644F8252BE38E006E5111 /* Assets.xcassets */; };
 		DDB64503252BE444006E5111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB64502252BE444006E5111 /* LaunchScreen.storyboard */; };
+		DDB64514252FE363006E5111 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDB6450F252BEC98006E5111 /* hit.mp3 */; };
+		DDB64516252FE366006E5111 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DDB64510252BEC98006E5111 /* music.m4a */; };
+		DDB64518252FE368006E5111 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDB64511252BEC98006E5111 /* score.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,7 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB644F7252BE38E006E5111 /* Main.storyboard in Resources */,
+				DDB64518252FE368006E5111 /* score.mp3 in Resources */,
 				DDB644F9252BE38E006E5111 /* Assets.xcassets in Resources */,
+				DDB64514252FE363006E5111 /* hit.mp3 in Resources */,
+				DDB64516252FE366006E5111 /* music.m4a in Resources */,
 				DDB64503252BE444006E5111 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
